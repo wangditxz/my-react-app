@@ -1,0 +1,24 @@
+.page-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .page-header {
+        height: 64px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    .page-footer {
+        height: 49px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    .page-body {
+        flex: 1;
+        display: flex;
+        overflow: auto;
+    }
+}

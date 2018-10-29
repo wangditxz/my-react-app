@@ -1,0 +1,41 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .app-head {
+    height: 64px;
+    background-color: #999;
+    line-height: 64px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .app-container {
+    flex: 1;
+    background-color: #f4f4f4;
+    overflow: hidden;
+  }
+  .app-footer {
+    height: 49px;
+    display: flex;
+
+    .app-tab {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: #999 1px solid;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+a.active {
+  color: red;
+}
